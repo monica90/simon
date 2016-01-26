@@ -1,18 +1,22 @@
 <div id="circulo"><h2>SIMON</h2></div>
 	
-	<table>
-		
-		<tr>
-			<td id="verde" onclick="play()"></td>
-			<td id="rojo" onclick="play()"></td>
-		</tr>
-		<tr>
-			<td id="amarillo" onclick="play()"></td>
-			<td id="azul" onclick="play()"></td>
-		</tr>
-		
-	</table>
+<table>
 	
-	<h1 id="colorelegido"> </h1>
+	<tr>
+		<td id="verde" ng-click="play('verde')"></td>
+		<td id="rojo" ng-click="play('rojo')"></td>
+	</tr>
+	<tr>
+		<td id="amarillo" ng-click="play('amarillo')"></td>
+		<td id="azul" ng-click="play('azul')"></td>
+	</tr>
 	
-	<audio id="audio" src="https://googledrive.com/host/0B6mm5NspeMk-b0Jhc210ZVJDcjg"></audio>
+</table>
+
+<h1 id="colorelegido"> </h1>
+
+<h1 class="aligncenter">{{titulo}} {{colores}}</h1>
+<button type="button" class="btn btn-primary aligncenter" ng-click="reset()">Reset</button>
+
+<audio id="audio" src="https://googledrive.com/host/0B6mm5NspeMk-b0Jhc210ZVJDcjg"></audio>
+

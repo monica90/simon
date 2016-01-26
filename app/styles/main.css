@@ -115,3 +115,7 @@ h2 {
   text-align: center;
   line-height: 80px;
 }
+
+.aligncenter{
+  margin: 0px auto;
+}
