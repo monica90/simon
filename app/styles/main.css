@@ -1,0 +1,117 @@
+
+/*simon*/
+body{
+  font-family: "Century Gothic";
+  background-image: url("http://cdn.allwallpaper.in/wallpapers/1440x1080/13547/light-minimalistic-soft-shading-gradient-background-1440x1080-wallpaper.jpg");
+  background-size: 100%;
+}
+
+table{
+  width: 360px;
+  height: 360px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 100%;
+  -moz-border-radius: 100%; /*compatibilidad firefox*/
+  background-color: #1a1a1a;
+  border-spacing: 20px;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.6), inset 0px 5px 20px 0px rgba(255, 255, 255, 0.5); /*valores: horizontal-vertical-desenfoque-color*/
+  -moz-box-shadow:    0px 10px 15px 0px rgba(0, 0, 0, 0.6), inset 0px 5px 20px 0px rgba(255, 255, 255, 0.5);
+  box-shadow:         0px 10px 15px 0px rgba(0, 0, 0, 0.6), inset 0px 5px 20px 0px rgba(255, 255, 255, 0.5);
+  border-collapse: separate;
+}
+
+td{
+  width: 150px;
+  
+}
+
+#verde{
+  background-color: #56D540;
+  border-radius: 100% 0% 10% 0%;
+  -moz-border-radius: 100% 0% 10% 0%; /*compatibilidad firefox*/
+  -webkit-box-shadow: inset 0px 0px 50px 0px #b5edab;
+  -moz-box-shadow:    inset 0px 0px 50px 0px #b5edab;
+  box-shadow:         inset 0px 0px 50px 0px #b5edab;
+}
+
+#verde:hover{
+  -webkit-box-shadow: inset 0px 0px 20px 0px #2a7d1c;
+  -moz-box-shadow:    inset 0px 0px 20px 0px #2a7d1c;
+  box-shadow:         inset 0px 0px 20px 0px #2a7d1c;
+  background-color: #39ff16;
+  cursor: pointer;
+}
+
+#rojo{
+  background-color: #EF2C16;
+  border-radius: 0% 100% 0% 10%;
+  -moz-border-radius: 0% 100% 0% 10%; /*compatibilidad firefox*/
+  -webkit-box-shadow: inset 0px 0px 50px 0px #f8a9a0;
+  -moz-box-shadow:    inset 0px 0px 50px 0px #f8a9a0;
+  box-shadow:         inset 0px 0px 50px 0px #f8a9a0;
+}
+
+#rojo:hover{
+  -webkit-box-shadow: inset 0px 0px 20px 0px #8f170a;
+  -moz-box-shadow:    inset 0px 0px 20px 0px #8f170a;
+  box-shadow:         inset 0px 0px 20px 0px #8f170a;
+  background-color: #ff1a1a;
+  cursor: pointer;
+}
+
+#amarillo{
+  background-color: #FDF227;
+  border-radius: 0% 10% 0% 100%;
+  -moz-border-radius: 0% 10% 0% 100%; /*compatibilidad firefox*/
+  -webkit-box-shadow: inset 0px 0px 50px 0px #fef99a;
+  -moz-box-shadow:    inset 0px 0px 50px 0px #fef99a;
+  box-shadow:         inset 0px 0px 50px 0px #fef99a;
+}
+
+#amarillo:hover{
+  -webkit-box-shadow: inset 0px 0px 20px 0px #989001;
+  -moz-box-shadow:    inset 0px 0px 20px 0px #989001;
+  box-shadow:         inset 0px 0px 20px 0px #989001;
+  background-color: #ffff1a;
+  cursor: pointer;
+}
+
+#azul{
+  background-color: #1E92E9;
+  border-radius: 10% 0% 100% 0%;
+  -moz-border-radius: 10% 0% 100% 0%; /*compatibilidad firefox*/
+  -webkit-box-shadow: inset 0px 0px 50px 0px #a2d2f6;
+  -moz-box-shadow:    inset 0px 0px 50px 0px #a2d2f6;
+  box-shadow:         inset 0px 0px 50px 0px #a2d2f6;
+}
+
+#azul:hover{
+  -webkit-box-shadow: inset 0px 0px 20px 0px #0e558b;
+  -moz-box-shadow:    inset 0px 0px 20px 0px #0e558b;
+  box-shadow:         inset 0px 0px 20px 0px #0e558b;
+  background-color: #1a9cff;
+  cursor: pointer;
+}
+
+#colorelegido{
+  text-align: center;
+}
+
+#circulo{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #1a1a1a;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  top: 240px;
+  
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  line-height: 80px;
+}
