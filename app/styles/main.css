@@ -117,5 +117,14 @@ h2 {
 }
 
 .aligncenter{
-  margin: 0px auto;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+}
+
+.list-group-item{
+  background-color: transparent;
+  border: 0px;
 }
